@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(255, 127, 238);
+}
+.dice{
+    display: block;
+    position: relative;
+    padding: 10px 180px;
+}
+.row{
+    display: flex;
+}
+.col-6{
+    width: 50%;
+}
+.img-dice{
+    border-radius: 10px;
+    height: 100px;
+}
+button{
+    margin-top: 50px;
+    height: 70px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100px;
+    font-size: larger;
+}
+button:hover{
+    background-color: #ac13c3;
+}
