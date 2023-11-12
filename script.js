@@ -11,7 +11,8 @@ function dicegame(){
     var location2 = "png/"+"dice-six-faces-"+random2+".png";
     var png2 = document.querySelectorAll("img")[1];
     png2.setAttribute("src",location2);
-
+    
+    //check who is win
     if(random1 > random2){
         document.querySelector("h1").innerHTML = "Player 1 Wins";
     }
